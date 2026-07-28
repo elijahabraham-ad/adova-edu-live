@@ -165,10 +165,10 @@ footer .end{font-family:"JetBrains Mono",monospace;text-align:center;font-size:1
 #toast{position:fixed;bottom:24px;left:50%;transform:translateX(-50%) translateY(8px);background:var(--ink);color:var(--paper);font-family:"JetBrains Mono",monospace;font-size:11.5px;letter-spacing:.06em;padding:10px 18px;opacity:0;pointer-events:none;transition:opacity .25s,transform .25s;z-index:100}
 #toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
 
-/* ---- reveals ---- */
+/* ---- reveals (armed only when JS is confirmed running; .on restores) ---- */
 @media (prefers-reduced-motion:no-preference){
-  .reveal{opacity:0;transform:translateY(6px);transition:opacity .55s ease,transform .55s ease}
-  .reveal.on{opacity:1;transform:none}
+  html.js .reveal{opacity:0;transform:translateY(6px);transition:opacity .55s ease,transform .55s ease}
+  html.js .reveal.on{opacity:1;transform:none}
 }
 </style>
 </head>
@@ -533,12 +533,12 @@ if('IntersectionObserver' in window){
   io.observe(document.getElementById('bookingExhibit'));
 }else{ loadEmbed(); }
 
-/* scroll reveals */
+/* scroll reveals: arm only when JS is live, with a hard fallback so content can never stay hidden */
 if(matchMedia('(prefers-reduced-motion: no-preference)').matches && 'IntersectionObserver' in window){
-  const ro = new IntersectionObserver(es=>{ es.forEach(e=>{ if(e.isIntersecting){ e.target.classList.add('on'); ro.unobserve(e.target); } }); },{rootMargin:'-40px'});
+  document.documentElement.classList.add('js');
+  const ro = new IntersectionObserver(es=>{ es.forEach(e=>{ if(e.isIntersecting){ e.target.classList.add('on'); ro.unobserve(e.target); } }); },{rootMargin:'60px'});
   document.querySelectorAll('.reveal').forEach(el=>ro.observe(el));
-}else{
-  document.querySelectorAll('.reveal').forEach(el=>el.classList.add('on'));
+  setTimeout(()=>document.querySelectorAll('.reveal:not(.on)').forEach(el=>el.classList.add('on')), 1800);
 }
 </script>
 </body>
