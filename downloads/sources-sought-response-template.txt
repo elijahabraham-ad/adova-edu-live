@@ -1,0 +1,88 @@
+================================================================
+SOURCES SOUGHT / RFI RESPONSE
+Adova Digital LLC
+================================================================
+
+TO:       [Contracting Office / POC from the notice]
+RE:       [Notice title]
+NOTICE #: [Notice ID from SAM.gov]
+DATE:     [Date]
+
+----------------------------------------------------------------
+1. EXECUTIVE SNAPSHOT
+----------------------------------------------------------------
+Adova Digital LLC (UEI HYSTBYVWZ566, CAGE 176E4) is a veteran-owned
+AI systems firm in Mableton, Georgia. SDVOSB, application under SBA
+review (VetCert). Primary NAICS 541511 (Custom Computer Programming
+Services), with 541512, 541611, and 541618. We design, build, and
+operate AI process automation, intake and missed-communication
+answering systems, data pipelines and dashboards, and AI readiness
+assessments. Systems are in daily commercial production; the founder
+is the delivery engineer.
+
+----------------------------------------------------------------
+2. ENTITY DATA
+----------------------------------------------------------------
+LEGAL NAME:        Adova Digital LLC
+UEI:               HYSTBYVWZ566
+CAGE:              176E4
+SAM.GOV:           Active
+PRIMARY NAICS:     541511
+SECONDARY NAICS:   541512, 541611, 541618
+SIZE:              Small business (all listed NAICS)
+SOCIOECONOMIC:     Veteran-owned; SDVOSB application under SBA
+                   review (VetCert)
+LOCATION:          Mableton, Georgia (Atlanta metro)
+POC:               Elijah Abraham, Founder and Principal Engineer
+EMAIL:             elijah.abraham@adovadigital.com
+PHONE:             (404) 445-1257
+CAPABILITY STMT:   https://edu.adovadigital.com/capability-statement.html
+
+----------------------------------------------------------------
+3. SET-ASIDE ELIGIBILITY STATEMENT
+----------------------------------------------------------------
+Adova Digital LLC is a small business under every NAICS code listed
+above and is 100% owned and controlled by a service-disabled veteran.
+The firm's SDVOSB certification application is under SBA review
+(VetCert). We respectfully note our interest in small-business and
+veteran-owned set-aside consideration for this requirement.
+
+----------------------------------------------------------------
+4. RESPONSES TO NOTICE QUESTIONS
+----------------------------------------------------------------
+Format: quote each question from the notice, answer directly beneath.
+
+Q1: "[Paste the first question exactly as written in the notice]"
+A1: [Direct answer. Lead with the fact, add one sentence of proof.]
+
+Q2: "[Paste the second question]"
+A2: [Direct answer.]
+
+[Repeat for every question. Do not skip any. If a question does not
+apply, say "Not applicable" and one sentence why.]
+
+----------------------------------------------------------------
+5. RELEVANT EXPERIENCE
+----------------------------------------------------------------
+- Missed-call answering and follow-up system, home-services
+  contracting firm. Automated answering, qualification, and
+  follow-up integrated with CRM and calendar. In production.
+- Lead capture, CRM, and payment automation stack, small-business
+  services firm. Web capture through CRM automation to invoicing
+  and payment collection. In production.
+- AI content and publishing pipeline operating on a daily cadence
+  with human oversight checkpoints. Operated daily.
+Client references available on request.
+
+----------------------------------------------------------------
+6. CLOSING
+----------------------------------------------------------------
+We appreciate the opportunity to respond and are available for a
+15-minute capabilities briefing at your convenience.
+
+Respectfully,
+
+Elijah Abraham
+Founder and Principal Engineer, Adova Digital LLC
+U.S. Army National Guard SGT (12N)
+elijah.abraham@adovadigital.com | (404) 445-1257

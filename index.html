@@ -3,207 +3,543 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Adova Digital | Government AI Services &amp; Capabilities</title>
-<meta name="description" content="Adova Digital LLC is a veteran-owned AI systems firm in Atlanta, Georgia. Custom AI development, systems design, and automation advisory for government agencies and prime contractors. UEI HYSTBYVWZ566 · CAGE 176E4." />
+<title>Capabilities of Adova Digital LLC | Government AI Services</title>
+<meta name="description" content="Capabilities of Adova Digital LLC, a veteran-owned AI systems firm in Mableton, Georgia. UEI HYSTBYVWZ566, CAGE 176E4, NAICS 541511. Custom AI development, automation, and advisory for agencies, purchase-card buyers, and prime contractors." />
 <meta name="author" content="Adova Digital LLC" />
+<meta name="theme-color" content="#F6F4EF" />
 <meta property="og:type" content="website" />
-<meta property="og:title" content="Adova Digital | Government AI Services &amp; Capabilities" />
-<meta property="og:description" content="Veteran-owned AI systems firm. Custom AI development, systems design, and automation advisory for agencies and primes. SAM.gov active." />
+<meta property="og:title" content="Capabilities of Adova Digital LLC | Government AI Services" />
+<meta property="og:description" content="Veteran-owned AI systems firm. SAM.gov active, UEI HYSTBYVWZ566, CAGE 176E4. Production AI systems built and operated by the founder who delivers them." />
 <link rel="icon" href="/favicon.ico" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800;900&family=Inter+Tight:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Instrument+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
 <style>
 :root{
-  --ink:#0F0B1F; --card:#171130; --line:#2D2547; --paper:#F5F3FA;
-  --violet:#7C3AED; --lilac:#A78BFA; --signal:#3DD68C; --steel:#8E8AA0;
+  --paper:#F6F4EF; --ink:#191714; --bronze:#8C6A3F; --bronze-deep:#6E5230;
+  --slate:#55524C; --panel:#EBE7DE; --vellum:#F5EFE6; --green:#1E3A2F;
+  --hairline:rgba(140,106,63,.35);
 }
 *{margin:0;padding:0;box-sizing:border-box}
 html{scroll-behavior:smooth}
-body{background:var(--ink);color:var(--paper);font-family:"Inter Tight",system-ui,sans-serif;font-size:17px;line-height:1.6;-webkit-font-smoothing:antialiased}
-a{color:var(--lilac);text-decoration:none}
-a:hover{text-decoration:underline}
-a:focus-visible,button:focus-visible{outline:2px solid var(--signal);outline-offset:3px;border-radius:2px}
-.wrap{max-width:1100px;margin:0 auto;padding:0 24px}
+body{background:var(--paper);color:var(--ink);font-family:"Instrument Sans",system-ui,sans-serif;font-size:16px;line-height:1.65;-webkit-font-smoothing:antialiased}
+a{color:var(--bronze);text-decoration:underline;text-underline-offset:3px;text-decoration-thickness:.5px}
+a:hover{color:var(--bronze-deep)}
+a:focus-visible,button:focus-visible{outline:2px solid var(--bronze);outline-offset:3px}
 .mono{font-family:"JetBrains Mono",ui-monospace,monospace}
+.serif{font-family:"Libre Caslon Text",Georgia,serif}
+.label{font-weight:600;font-size:.6875rem;letter-spacing:.12em;text-transform:uppercase;color:var(--bronze)}
 
-/* top bar */
-.top{border-bottom:1px solid var(--line)}
-.top .wrap{display:flex;align-items:center;justify-content:space-between;padding-top:18px;padding-bottom:18px;gap:16px;flex-wrap:wrap}
-.brand{font-family:Archivo,sans-serif;font-weight:800;letter-spacing:.02em;color:var(--paper);font-size:15px}
-.brand span{color:var(--lilac)}
-.top nav{display:flex;gap:22px;font-size:14px;flex-wrap:wrap}
-.top nav a{color:var(--steel)}
-.top nav a:hover{color:var(--paper);text-decoration:none}
+/* ---- document-control bar ---- */
+.doccontrol{position:sticky;top:0;z-index:60;background:var(--paper);border-bottom:.5px solid var(--hairline)}
+.doccontrol .in{max-width:1060px;margin:0 auto;padding:9px 24px;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font-family:"JetBrains Mono",monospace;font-size:11px;letter-spacing:.06em;color:var(--ink)}
+.doccontrol .dim{color:var(--slate)}
+.samdot{display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--green);vertical-align:1px;margin:0 4px 0 2px}
+@media (prefers-reduced-motion:no-preference){.samdot{animation:pulse 3s ease-in-out infinite}@keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}}
 
-/* hero */
-.hero{padding:72px 0 64px;border-bottom:1px solid var(--line)}
-.hero .wrap{display:grid;grid-template-columns:1.15fr .85fr;gap:56px;align-items:center}
-.eyebrow{font-family:"JetBrains Mono",monospace;font-size:12px;letter-spacing:.14em;color:var(--signal);text-transform:uppercase;margin-bottom:18px}
-h1{font-family:Archivo,sans-serif;font-weight:900;font-size:clamp(34px,4.6vw,52px);line-height:1.06;letter-spacing:-.015em}
-h1 em{font-style:normal;color:var(--lilac)}
-.hero p.lead{margin-top:20px;color:var(--steel);font-size:18px;max-width:34em}
-.cta-row{margin-top:32px;display:flex;gap:14px;flex-wrap:wrap}
-.btn{display:inline-block;font-family:Archivo,sans-serif;font-weight:700;font-size:15px;padding:13px 22px;border-radius:6px;border:1px solid transparent}
-.btn-primary{background:var(--violet);color:#fff}
-.btn-primary:hover{background:#8b4ff0;text-decoration:none}
-.btn-ghost{border-color:var(--line);color:var(--paper)}
-.btn-ghost:hover{border-color:var(--lilac);text-decoration:none}
+/* ---- clause layout ---- */
+.sheet{max-width:1060px;margin:0 auto;padding:0 24px}
+.clause{display:grid;grid-template-columns:72px 1fr;gap:0 28px;padding:56px 0;border-top:.5px solid var(--hairline)}
+.clause:first-of-type{border-top:none}
+.cnum{font-family:"JetBrains Mono",monospace;font-size:12px;color:var(--bronze);letter-spacing:.08em;padding-top:6px;text-align:right}
+.cbody{max-width:76ch}
+h2.sec{font-family:"Libre Caslon Text",serif;font-weight:700;font-size:clamp(22px,2.6vw,30px);letter-spacing:-.01em;margin:4px 0 8px}
+.secsub{color:var(--slate);margin-bottom:26px;max-width:64ch}
+@media (max-width:760px){.clause{grid-template-columns:1fr;padding:44px 0}.cnum{text-align:left;padding:0 0 8px}}
 
-/* the data plate */
-.plate{background:var(--card);border:1px solid var(--line);border-radius:10px;overflow:hidden;box-shadow:0 24px 60px rgba(0,0,0,.35)}
-.plate-head{display:flex;justify-content:space-between;align-items:center;padding:14px 18px;border-bottom:1px solid var(--line);background:rgba(124,58,237,.08)}
-.plate-head .t{font-family:"JetBrains Mono",monospace;font-size:11px;letter-spacing:.14em;color:var(--steel)}
-.status{display:flex;align-items:center;gap:7px;font-family:"JetBrains Mono",monospace;font-size:11px;letter-spacing:.1em;color:var(--signal)}
-.dot{width:8px;height:8px;border-radius:50%;background:var(--signal);box-shadow:0 0 8px rgba(61,214,140,.8)}
+/* ---- cover ---- */
+.cover{padding:64px 0 60px}
+.cover .mark{height:44px;width:auto;display:block;margin:0 auto 26px}
+.cover h1{font-family:"Libre Caslon Text",serif;font-weight:700;font-size:clamp(2.2rem,5vw,4rem);letter-spacing:-.02em;line-height:1.08;text-align:center;max-width:20ch;margin:0 auto}
+.cover .kicker{display:block;text-align:center;margin-bottom:18px}
+.cover .sub{max-width:66ch;margin:22px auto 0;text-align:center;color:var(--slate);font-size:17px}
+.cta-row{display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin:34px 0 48px}
+.btn{display:inline-block;font-weight:600;font-size:15px;padding:13px 24px;border:1px solid var(--ink);text-decoration:none;background:var(--ink);color:var(--paper);cursor:pointer;font-family:"Instrument Sans",sans-serif}
+.btn:hover{background:#2a2620;color:var(--paper)}
+.btn.ghost{background:transparent;color:var(--ink);border-color:var(--bronze)}
+.btn.ghost:hover{background:var(--vellum);color:var(--ink)}
+
+/* ---- entity plate ---- */
+.plate{max-width:720px;margin:0 auto;background:var(--panel);border:2px solid var(--bronze);border-radius:2px;box-shadow:inset 0 0 0 3px var(--panel),inset 0 0 0 3.5px rgba(140,106,63,.5),0 1px 0 rgba(255,255,255,.6) inset}
+.plate-head{display:flex;justify-content:space-between;align-items:center;padding:12px 20px;border-bottom:.5px solid var(--hairline)}
+.plate-head .t{font-family:"JetBrains Mono",monospace;font-size:11px;letter-spacing:.14em;color:var(--slate)}
+.plate-head .status{font-family:"JetBrains Mono",monospace;font-size:11px;letter-spacing:.08em;color:var(--green)}
 .plate table{width:100%;border-collapse:collapse}
-.plate td{padding:11px 18px;font-size:13.5px;vertical-align:top}
-.plate tr+tr td{border-top:1px solid var(--line)}
-.plate td.k{font-family:"JetBrains Mono",monospace;font-size:11px;letter-spacing:.12em;color:var(--steel);text-transform:uppercase;width:38%;padding-top:13px}
-.plate td.v{font-family:"JetBrains Mono",monospace;color:var(--paper)}
-.plate td.v .sub{color:var(--steel);font-size:12px;display:block;margin-top:2px;font-family:"Inter Tight",sans-serif}
+.plate td{padding:10px 20px;vertical-align:top;font-size:14px}
+.plate tr+tr td{border-top:.5px solid var(--hairline)}
+.plate td.k{font-family:"JetBrains Mono",monospace;font-size:10.5px;letter-spacing:.12em;color:var(--slate);text-transform:uppercase;width:37%;padding-top:12px}
+.plate td.v{font-family:"JetBrains Mono",monospace;color:var(--ink)}
+.plate td.v .chip{display:inline-block;border:1px solid var(--green);color:var(--green);font-size:11.5px;padding:2px 8px;border-radius:2px;margin-top:2px}
+.copybtn{float:right;background:none;border:none;cursor:pointer;font-family:"JetBrains Mono",monospace;font-size:10.5px;color:var(--bronze);letter-spacing:.08em;padding:2px 4px}
+.copybtn:hover{color:var(--bronze-deep)}
+.copybtn.done{color:var(--green)}
+.plate-foot{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;padding:12px 20px;border-top:.5px solid var(--hairline)}
+.plate-foot .note{font-family:"JetBrains Mono",monospace;font-size:10px;color:var(--slate);letter-spacing:.04em}
+.smallbtn{background:transparent;border:1px solid var(--bronze);color:var(--bronze-deep);font-family:"Instrument Sans",sans-serif;font-weight:600;font-size:12.5px;padding:7px 14px;cursor:pointer}
+.smallbtn:hover{background:var(--vellum)}
 
-/* sections */
-section{padding:64px 0;border-bottom:1px solid var(--line)}
-.sec-label{font-family:"JetBrains Mono",monospace;font-size:12px;letter-spacing:.14em;color:var(--lilac);text-transform:uppercase;margin-bottom:12px}
-h2{font-family:Archivo,sans-serif;font-weight:800;font-size:clamp(24px,3vw,32px);letter-spacing:-.01em;margin-bottom:28px}
-.grid2{display:grid;grid-template-columns:1fr 1fr;gap:20px}
-.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:26px}
-.card .naics{font-family:"JetBrains Mono",monospace;font-size:12px;color:var(--signal);letter-spacing:.1em;margin-bottom:10px}
-.card h3{font-family:Archivo,sans-serif;font-weight:700;font-size:19px;margin-bottom:10px}
-.card p{color:var(--steel);font-size:15.5px}
+/* ---- competencies ---- */
+.comp{border-top:.5px solid var(--hairline)}
+.comp .row{display:grid;grid-template-columns:56px 1fr auto;gap:0 20px;padding:20px 0;border-bottom:.5px solid var(--hairline)}
+.comp .n{font-family:"JetBrains Mono",monospace;font-size:12px;color:var(--bronze);padding-top:4px}
+.comp h3{font-family:"Libre Caslon Text",serif;font-weight:700;font-size:19px;margin-bottom:6px}
+.comp p{color:var(--slate);font-size:15px;max-width:60ch}
+.comp .naics{font-family:"JetBrains Mono",monospace;font-size:11.5px;color:var(--slate);text-align:right;padding-top:6px;white-space:nowrap}
+@media (max-width:640px){.comp .row{grid-template-columns:44px 1fr}.comp .naics{grid-column:2;text-align:left;padding-top:8px}}
 
-.diff-list{display:grid;grid-template-columns:1fr 1fr;gap:8px 40px;list-style:none}
-.diff-list li{padding:16px 0;border-bottom:1px solid var(--line);color:var(--steel);font-size:16px}
-.diff-list li strong{color:var(--paper);display:block;font-family:Archivo,sans-serif;font-weight:700;font-size:17px;margin-bottom:4px}
+/* ---- experience ledger ---- */
+.ledger .row{display:grid;grid-template-columns:1fr;gap:6px;padding:20px 8px;border-bottom:.5px solid var(--hairline);transition:background .2s}
+.ledger .row:first-child{border-top:.5px solid var(--hairline)}
+.ledger .row:hover{background:rgba(140,106,63,.04)}
+.ledger .name{font-family:"Libre Caslon Text",serif;font-weight:700;font-size:17px}
+.ledger .scope{color:var(--slate);font-size:15px;max-width:66ch}
+.ledger .metaline{font-family:"JetBrains Mono",monospace;font-size:11px;color:var(--slate);letter-spacing:.05em}
+.footnote{color:var(--slate);font-size:13px;margin-top:18px;max-width:66ch}
 
-.engage p{color:var(--steel);max-width:46em}
-.engage .card{margin-top:24px}
-.contact-row{display:flex;gap:40px;flex-wrap:wrap;margin-top:8px}
-.contact-row .item .k{font-family:"JetBrains Mono",monospace;font-size:11px;letter-spacing:.12em;color:var(--steel);text-transform:uppercase;margin-bottom:4px}
-.contact-row .item .v{font-size:16px}
+/* ---- CLIN table ---- */
+.clin{width:100%;border-collapse:collapse;border:.5px solid var(--hairline)}
+.clin thead th{background:var(--panel);font-family:"JetBrains Mono",monospace;font-size:10.5px;letter-spacing:.12em;color:var(--slate);text-transform:uppercase;text-align:left;padding:10px 14px;border-bottom:.5px solid var(--hairline)}
+.clin td{padding:16px 14px;vertical-align:top;border-bottom:.5px solid var(--hairline);font-size:15px}
+.clin td.num{font-family:"JetBrains Mono",monospace;font-size:12.5px;color:var(--bronze);white-space:nowrap}
+.clin td.price{font-family:"JetBrains Mono",monospace;font-size:14px;white-space:nowrap}
+.clin .t{font-weight:600}
+.clin .d{color:var(--slate);font-size:14px;margin-top:4px;max-width:48ch}
+.clin a.quote{font-size:13px;white-space:nowrap}
+.clin-note{font-family:"JetBrains Mono",monospace;font-size:11px;color:var(--slate);margin-top:12px;letter-spacing:.03em;max-width:80ch}
+@media (max-width:700px){.clin thead{display:none}.clin,.clin tbody,.clin tr,.clin td{display:block;border:none}.clin tr{border-bottom:.5px solid var(--hairline);padding:14px 0}.clin td{padding:3px 0}}
 
-footer{padding:36px 0 48px;color:var(--steel);font-size:13.5px}
-footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
+/* ---- diff list ---- */
+.diffs{list-style:none;border-top:.5px solid var(--hairline)}
+.diffs li{display:grid;grid-template-columns:56px 1fr;gap:0 20px;padding:16px 0;border-bottom:.5px solid var(--hairline)}
+.diffs .n{font-family:"JetBrains Mono",monospace;font-size:12px;color:var(--bronze);padding-top:2px}
+.diffs strong{display:block;font-weight:600;margin-bottom:3px}
+.diffs span{color:var(--slate);font-size:15px;max-width:64ch;display:block}
 
-@media (max-width:840px){
-  .hero .wrap{grid-template-columns:1fr;gap:40px}
-  .grid2,.diff-list{grid-template-columns:1fr}
-}
+/* ---- teaming panel + tools ---- */
+.tint{background:var(--vellum);border:.5px solid var(--hairline);padding:26px 28px;margin-top:8px}
+.tint h3{font-family:"Libre Caslon Text",serif;font-weight:700;font-size:19px;margin-bottom:10px}
+.tint p{color:var(--slate);font-size:15px;max-width:66ch}
+.tools{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:18px}
+.toolcard{background:var(--paper);border:.5px solid var(--hairline);padding:20px 22px}
+.toolcard h4{font-weight:600;font-size:15.5px;margin-bottom:6px}
+.toolcard p{font-size:14px;color:var(--slate);margin-bottom:12px}
+@media (max-width:700px){.tools{grid-template-columns:1fr}}
+
+/* ---- composer ---- */
+.composer{border:.5px solid var(--hairline);padding:24px 26px;margin-top:22px}
+.composer .opts{display:flex;gap:10px;flex-wrap:wrap;margin:14px 0 18px}
+.opt{border:1px solid var(--hairline);background:var(--paper);font-family:"JetBrains Mono",monospace;font-size:11.5px;letter-spacing:.06em;padding:8px 14px;cursor:pointer;color:var(--slate)}
+.opt[aria-pressed="true"]{border-color:var(--bronze);color:var(--bronze-deep);background:var(--vellum)}
+.composer .actions{display:flex;gap:12px;flex-wrap:wrap}
+
+/* ---- signature ---- */
+.sig{margin:38px 0 8px;max-width:420px}
+.sig .rule{height:2px;background:var(--bronze);margin-bottom:10px}
+.sig .name{font-family:"Libre Caslon Text",serif;font-weight:700;font-size:20px}
+.sig .role{color:var(--slate);font-size:14px}
+.sig .rev{font-family:"JetBrains Mono",monospace;font-size:10.5px;color:var(--slate);letter-spacing:.08em;margin-top:8px}
+.pocline{font-family:"JetBrains Mono",monospace;font-size:15px;margin:6px 0}
+
+/* ---- exhibit (booking) ---- */
+.exhibit{border:.5px solid var(--hairline);background:var(--panel);padding:18px;margin-top:30px}
+.exhibit .cap{font-family:"JetBrains Mono",monospace;font-size:10.5px;letter-spacing:.1em;color:var(--slate);text-transform:uppercase;margin-bottom:4px}
+.exhibit .caption{font-size:13px;color:var(--slate);margin:10px 2px 2px}
+.exhibit iframe{width:100%;min-height:640px;border:none;background:var(--paper)}
+
+/* ---- footer ---- */
+footer{background:var(--ink);color:rgba(246,244,239,.85);margin-top:70px}
+footer .in{max-width:1060px;margin:0 auto;padding:52px 24px 40px}
+footer .cols{display:grid;grid-template-columns:1.2fr 1fr 1fr;gap:36px}
+footer .fmark{height:36px;opacity:.7;margin-bottom:14px;filter:invert(1) brightness(1.6)}
+footer .flabel{font-family:"JetBrains Mono",monospace;font-size:10px;letter-spacing:.14em;color:rgba(246,244,239,.45);text-transform:uppercase;margin-bottom:10px}
+footer p,footer li{font-size:13.5px;color:rgba(246,244,239,.55)}
+footer ul{list-style:none}
+footer li{padding:3px 0}
+footer a{color:rgba(246,244,239,.85)}
+footer a:hover{color:#fff}
+footer .entity{font-family:"JetBrains Mono",monospace;font-size:12px;line-height:1.9;color:rgba(246,244,239,.55);user-select:all}
+footer .end{font-family:"JetBrains Mono",monospace;text-align:center;font-size:10.5px;letter-spacing:.3em;color:rgba(246,244,239,.3);margin-top:44px}
+@media (max-width:760px){footer .cols{grid-template-columns:1fr}}
+
+/* ---- toast ---- */
+#toast{position:fixed;bottom:24px;left:50%;transform:translateX(-50%) translateY(8px);background:var(--ink);color:var(--paper);font-family:"JetBrains Mono",monospace;font-size:11.5px;letter-spacing:.06em;padding:10px 18px;opacity:0;pointer-events:none;transition:opacity .25s,transform .25s;z-index:100}
+#toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+
+/* ---- reveals ---- */
 @media (prefers-reduced-motion:no-preference){
-  .hero h1,.hero .lead,.hero .cta-row,.hero .eyebrow{animation:rise .6s ease both}
-  .plate{animation:rise .6s .15s ease both}
-  @keyframes rise{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+  .reveal{opacity:0;transform:translateY(6px);transition:opacity .55s ease,transform .55s ease}
+  .reveal.on{opacity:1;transform:none}
 }
 </style>
 </head>
 <body>
 
-<header class="top">
-  <div class="wrap">
-    <div class="brand">ADOVA <span>DIGITAL</span> · GOV</div>
-    <nav aria-label="Main">
-      <a href="#capabilities">Capabilities</a>
-      <a href="#company">Company data</a>
-      <a href="/capability-statement.html">Capability statement</a>
-      <a href="https://synapse.adovadigital.com">Commercial practice ↗</a>
-    </nav>
+<div class="doccontrol">
+  <div class="in">
+    <span>ADOVA DIGITAL LLC <span class="dim">&middot; GOVERNMENT SERVICES</span></span>
+    <span class="dim">UEI HYSTBYVWZ566 &middot; CAGE 176E4 &middot; SAM:<span class="samdot" aria-hidden="true"></span><span style="color:var(--green)">ACTIVE</span> &middot; REV 2026-Q3</span>
   </div>
-</header>
+</div>
 
-<main>
-<section class="hero">
-  <div class="wrap">
-    <div>
-      <div class="eyebrow">Veteran-owned small business · Atlanta, Georgia</div>
-      <h1>Practical AI systems, <em>built and run</em> by the people you contract with.</h1>
-      <p class="lead">Adova Digital LLC designs, builds, and operates AI automation for government teams and the primes that serve them: opportunity assessments, custom development, and managed AI operations. Founded and 100% owned by a serving Army National Guard engineer NCO.</p>
-      <div class="cta-row">
-        <a class="btn btn-primary" href="/capability-statement.html">View capability statement</a>
-        <a class="btn btn-ghost" href="mailto:elijah.abraham@adovadigital.com">Contact the owner</a>
+<main class="sheet">
+
+<!-- SECTION A · COVER -->
+<section class="cover reveal" id="cover" aria-label="Cover">
+  <img class="mark" src="/logo-hummingbird.png" alt="Adova Digital hummingbird mark" />
+  <span class="label kicker">Veteran-owned small business &middot; Mableton, Georgia</span>
+  <h1>Capabilities of Adova&nbsp;Digital&nbsp;LLC</h1>
+  <p class="sub">Production AI systems, built and operated by the founder who delivers them. Adova Digital serves agencies, purchase-card buyers, and prime contractors. The engineer who scopes your requirement is the one who ships it. SDVOSB, application under SBA review (VetCert).</p>
+  <div class="cta-row">
+    <a class="btn" href="/capability-statement.html">Download Capability Statement (PDF)</a>
+    <a class="btn ghost" href="#contact">Request a Capabilities Briefing</a>
+  </div>
+
+  <aside class="plate reveal" aria-label="Entity data plate, values verbatim from SAM.gov">
+    <div class="plate-head">
+      <span class="t">ENTITY DATA PLATE &middot; SAM.GOV RECORD</span>
+      <span class="status"><span class="samdot" aria-hidden="true"></span>ACTIVE</span>
+    </div>
+    <table>
+      <tr><td class="k">Legal name</td><td class="v">Adova Digital LLC <button class="copybtn" data-copy="legalName" aria-label="Copy legal name">COPY</button></td></tr>
+      <tr><td class="k">UEI</td><td class="v">HYSTBYVWZ566 <button class="copybtn" data-copy="uei" aria-label="Copy UEI">COPY</button></td></tr>
+      <tr><td class="k">CAGE</td><td class="v">176E4 <button class="copybtn" data-copy="cage" aria-label="Copy CAGE">COPY</button></td></tr>
+      <tr><td class="k">Primary NAICS</td><td class="v">541511 <button class="copybtn" data-copy="naicsPrimary" aria-label="Copy primary NAICS">COPY</button></td></tr>
+      <tr><td class="k">Secondary NAICS</td><td class="v">541512 &middot; 541611 &middot; 541618 <button class="copybtn" data-copy="naicsSecondary" aria-label="Copy secondary NAICS">COPY</button></td></tr>
+      <tr><td class="k">Socioeconomic</td><td class="v"><span class="chip">SDVOSB, application under SBA review (VetCert)</span></td></tr>
+      <tr><td class="k">SAM.gov</td><td class="v">ACTIVE &middot; renewal 2026-11-26</td></tr>
+      <tr><td class="k">Location</td><td class="v">Mableton, Georgia <button class="copybtn" data-copy="location" aria-label="Copy location">COPY</button></td></tr>
+      <tr><td class="k">Point of contact</td><td class="v">elijah.abraham@adovadigital.com <button class="copybtn" data-copy="email" aria-label="Copy email">COPY</button></td></tr>
+    </table>
+    <div class="plate-foot">
+      <span class="note">VALUES VERBATIM FROM SAM.GOV &middot; VERIFIED 2026-07-28</span>
+      <button class="smallbtn" id="copyRecord">Copy Full Entity Record</button>
+    </div>
+  </aside>
+</section>
+
+<!-- SECTION B · COMPETENCIES -->
+<section class="clause reveal" id="capabilities" aria-labelledby="secB">
+  <div class="cnum">SEC. B</div>
+  <div class="cbody">
+    <span class="label">Section B &middot; Core competencies</span>
+    <h2 class="sec" id="secB">Supplies or services and prices.</h2>
+    <p class="secsub">Four service lines, each mapped to its registered NAICS code. Deliverables are systems that run, with documentation a non-technical owner can operate from.</p>
+    <div class="comp">
+      <div class="row">
+        <span class="n">B.1</span>
+        <div><h3>AI process automation and workflow systems</h3><p>Intake, routing, document processing, and reporting automation integrated with the systems a team already runs. Delivered with runbooks and operator documentation.</p></div>
+        <span class="naics">541511 &middot; PRIMARY</span>
+      </div>
+      <div class="row">
+        <span class="n">B.2</span>
+        <div><h3>AI intake and missed-communication answering</h3><p>Call, text, and web-form answering systems that capture, qualify, and follow up on inbound contact around the clock. In production for commercial clients today.</p></div>
+        <span class="naics">541511</span>
+      </div>
+      <div class="row">
+        <span class="n">B.3</span>
+        <div><h3>Data pipelines, reporting, and decision dashboards</h3><p>Pipelines that pull operational data into live dashboards and scheduled reports. Architecture, model selection, and security posture documented for review.</p></div>
+        <span class="naics">541512</span>
+      </div>
+      <div class="row">
+        <span class="n">B.4</span>
+        <div><h3>AI readiness assessment and workforce enablement</h3><p>Structured assessments that map where automation pays off in a workflow, priced roadmaps before anything is built, and staff training on the delivered systems.</p></div>
+        <span class="naics">541611 &middot; 541618</span>
       </div>
     </div>
-    <aside class="plate" aria-label="SAM.gov entity record">
-      <div class="plate-head">
-        <span class="t">SAM.GOV ENTITY RECORD</span>
-        <span class="status"><span class="dot" aria-hidden="true"></span>ACTIVE</span>
-      </div>
-      <table>
-        <tr><td class="k">Legal name</td><td class="v">ADOVADIGITAL LLC</td></tr>
-        <tr><td class="k">UEI</td><td class="v">HYSTBYVWZ566</td></tr>
-        <tr><td class="k">CAGE</td><td class="v">176E4</td></tr>
-        <tr><td class="k">NAICS</td><td class="v">541511 (P) · 541512<br/>541611 · 541618</td></tr>
-        <tr><td class="k">Socioeconomic</td><td class="v">VETERAN-OWNED<span class="sub">SDVOSB &amp; VOSB: SBA VetCert application under review</span></td></tr>
-        <tr><td class="k">Location</td><td class="v">MABLETON, GA<span class="sub">Atlanta metro</span></td></tr>
-      </table>
-    </aside>
   </div>
 </section>
 
-<section id="capabilities">
-  <div class="wrap">
-    <div class="sec-label">Core competencies</div>
-    <h2>Four lanes, each registered under its NAICS code.</h2>
-    <div class="grid2">
-      <div class="card">
-        <div class="naics">NAICS 541511 · PRIMARY</div>
-        <h3>Custom AI development &amp; integration</h3>
-        <p>LLM-powered tools, chat and voice agents, document processing, and data pipelines, integrated with the systems your team already runs. Built to be operated, not demoed.</p>
+<!-- SECTION C · EXPERIENCE -->
+<section class="clause reveal" id="experience" aria-labelledby="secC">
+  <div class="cnum">SEC. C</div>
+  <div class="cbody">
+    <span class="label">Section C &middot; Relevant experience</span>
+    <h2 class="sec" id="secC">Systems currently in production.</h2>
+    <p class="secsub">Commercial engagements. Client references available on request.</p>
+    <div class="ledger">
+      <div class="row">
+        <div class="name">Missed-call answering and follow-up system</div>
+        <p class="scope">Home-services contracting firm. Automated answering, qualification, and follow-up for inbound customer calls and messages, integrated with the firm's CRM and calendar. Sole developer and operator.</p>
+        <span class="metaline">COMMERCIAL &middot; IN PRODUCTION &middot; REFERENCE ON REQUEST</span>
       </div>
-      <div class="card">
-        <div class="naics">NAICS 541512</div>
-        <h3>AI systems design</h3>
-        <p>Architecture, model selection, security posture, and deployment planning for organizations adopting AI. Clear documentation a non-technical owner can act on.</p>
+      <div class="row">
+        <div class="name">Lead capture, CRM, and payment automation stack</div>
+        <p class="scope">Small-business services firm. End-to-end pipeline from web capture through CRM automation to invoicing and payment collection, built on GoHighLevel, Stripe, and serverless infrastructure. Sole developer.</p>
+        <span class="metaline">COMMERCIAL &middot; IN PRODUCTION &middot; REFERENCE ON REQUEST</span>
       </div>
-      <div class="card">
-        <div class="naics">NAICS 541611</div>
-        <h3>AI advisory &amp; opportunity assessment</h3>
-        <p>Fractional AI officer engagements and structured assessments that identify where automation actually pays off in a workflow, with a costed roadmap, before anything is built.</p>
-      </div>
-      <div class="card">
-        <div class="naics">NAICS 541618</div>
-        <h3>Process &amp; communications automation</h3>
-        <p>Intake, follow-up, missed-call answering, scheduling, and reporting automation for small teams that can't afford dropped handoffs.</p>
+      <div class="row">
+        <div class="name">AI content and publishing pipeline</div>
+        <p class="scope">Automated content generation, review, scheduling, and publishing system operating on a daily cadence with human oversight checkpoints. Designed, built, and operated by the firm.</p>
+        <span class="metaline">COMMERCIAL &middot; IN PRODUCTION &middot; OPERATED DAILY</span>
       </div>
     </div>
+    <p class="footnote">Note on federal past performance: Adova Digital has not yet held a federal prime contract. Under FAR 15.305(a)(2)(iv), an offeror without a record of relevant past performance may not be evaluated favorably or unfavorably on past performance.</p>
   </div>
 </section>
 
-<section id="differentiators">
-  <div class="wrap">
-    <div class="sec-label">Differentiators</div>
-    <h2>Why a small firm, on purpose.</h2>
-    <ul class="diff-list">
-      <li><strong>Owner-operated, veteran-led</strong>The founder is a serving Georgia Army National Guard engineer NCO (12N). The person accountable for the contract is the person doing the work.</li>
-      <li><strong>Field-native, not lab-native</strong>Four years in the commercial electrical trade before AI. We build systems for people who work with their hands and phones, not just desks.</li>
-      <li><strong>A live commercial practice</strong>Our systems run daily in the private sector through <a href="https://synapse.adovadigital.com">Adova Synapse</a>, our AI practice for skilled-trade contractors.</li>
-      <li><strong>Small-business speed</strong>Direct access, short chains, fast iterations. Suited to micro-purchases, simplified acquisitions, and subcontract task orders.</li>
+<!-- SECTION D · LINE ITEMS -->
+<section class="clause reveal" id="pricing" aria-labelledby="secD">
+  <div class="cnum">SEC. D</div>
+  <div class="cbody">
+    <span class="label">Section D &middot; Fixed-price line items</span>
+    <h2 class="sec" id="secD">Published pricing, quote on letterhead same day.</h2>
+    <p class="secsub">Firm-fixed-price line items with defined deliverables. A signed written quote returns same day for the purchase-card holder's price-reasonableness file.</p>
+    <table class="clin">
+      <thead><tr><th>CLIN</th><th>Item</th><th>Price</th><th></th></tr></thead>
+      <tbody>
+        <tr>
+          <td class="num">0001</td>
+          <td><span class="t">AI Opportunity Assessment</span><p class="d">Structured workflow review, automation opportunity map, and priced implementation roadmap. Two-week period of performance. Written report delivered.</p></td>
+          <td class="price">$1,500 FFP</td>
+          <td><a class="quote" href="mailto:elijah.abraham@adovadigital.com?subject=Written%20Quote%20Request%2C%20CLIN%200001%2C%20AI%20Opportunity%20Assessment%2C%20Adova%20Digital%20LLC&body=Requesting%20a%20signed%20written%20quote%20for%20CLIN%200001%2C%20AI%20Opportunity%20Assessment%2C%20%241%2C500%20firm-fixed-price%2C%20two-week%20period%20of%20performance.%0A%0AEntity%3A%20Adova%20Digital%20LLC%20%C2%B7%20UEI%20HYSTBYVWZ566%20%C2%B7%20CAGE%20176E4">Request Written Quote</a></td>
+        </tr>
+        <tr>
+          <td class="num">0002</td>
+          <td><span class="t">AI System Build</span><p class="d">Design, build, and deployment of a scoped automation or AI system, with documentation and operator handoff. Scope set in the assessment or a written requirement.</p></td>
+          <td class="price">$7,500&ndash;$25,000 FFP</td>
+          <td><a class="quote" href="mailto:elijah.abraham@adovadigital.com?subject=Written%20Quote%20Request%2C%20CLIN%200002%2C%20AI%20System%20Build%2C%20Adova%20Digital%20LLC">Request Written Quote</a></td>
+        </tr>
+        <tr>
+          <td class="num">0003</td>
+          <td><span class="t">AI operations and support retainer</span><p class="d">Monthly operation, monitoring, and iteration of delivered systems. Scoped to the requirement.</p></td>
+          <td class="price">from $500 / month</td>
+          <td><a class="quote" href="mailto:elijah.abraham@adovadigital.com?subject=Written%20Quote%20Request%2C%20CLIN%200003%2C%20AI%20Operations%20Retainer%2C%20Adova%20Digital%20LLC">Request Written Quote</a></td>
+        </tr>
+      </tbody>
+    </table>
+    <p class="clin-note">CLIN 0001 SITS BELOW THE $2,500 SERVICES MICRO-PURCHASE THRESHOLD &middot; GOVERNMENT PURCHASE CARD ACCEPTED &middot; PUBLISHED PRICING SUPPORTS PRICE-REASONABLENESS DOCUMENTATION</p>
+  </div>
+</section>
+
+<!-- SECTION E · DIFFERENTIATORS -->
+<section class="clause reveal" id="differentiators" aria-labelledby="secE">
+  <div class="cnum">SEC. E</div>
+  <div class="cbody">
+    <span class="label">Section E &middot; Differentiators</span>
+    <h2 class="sec" id="secE">Statements of fact.</h2>
+    <ul class="diffs">
+      <li><span class="n">E.1</span><div><strong>The founder is the delivery engineer.</strong><span>No bench, no markup on subcontracted labor. The person who signs this page scopes, builds, and operates the work.</span></div></li>
+      <li><span class="n">E.2</span><div><strong>Trade and field background.</strong><span>Four years in the commercial electrical trade and current service as a Georgia Army National Guard engineer NCO (12N). Systems are built for people who work in the field, not only at desks.</span></div></li>
+      <li><span class="n">E.3</span><div><strong>Production systems, operating today.</strong><span>The systems in Section C run daily for commercial clients. This is delivery experience, not a services brochure.</span></div></li>
+      <li><span class="n">E.4</span><div><strong>Founder-led with surge capacity.</strong><span>Lean firm with an established contractor network for surge work. Small-business speed on micro-purchase and simplified-acquisition timelines.</span></div></li>
     </ul>
   </div>
 </section>
 
-<section id="company" class="engage">
-  <div class="wrap">
-    <div class="sec-label">How to engage</div>
-    <h2>Built for the small end of the acquisition spectrum.</h2>
-    <p>Adova Digital is available for micro-purchase and simplified-acquisition direct awards, subcontracting and teaming with prime contractors, and small-business set-asides. SDVOSB and VOSB certification applications are under SBA review; this page will reflect the determination when issued.</p>
-    <div class="card">
-      <div class="contact-row">
-        <div class="item"><div class="k">Point of contact</div><div class="v">Elijah Abraham, CEO</div></div>
-        <div class="item"><div class="k">Email</div><div class="v"><a href="mailto:elijah.abraham@adovadigital.com">elijah.abraham@adovadigital.com</a></div></div>
-        <div class="item"><div class="k">Capability statement</div><div class="v"><a href="/capability-statement.html">View / print</a></div></div>
+<!-- SECTION F · TEAMING -->
+<section class="clause reveal" id="teaming" aria-labelledby="secF">
+  <div class="cnum">SEC. F</div>
+  <div class="cbody">
+    <span class="label">Section F &middot; For prime contractors</span>
+    <h2 class="sec" id="secF">Teaming and subcontracting.</h2>
+    <div class="tint">
+      <h3>The gap we fill on your team</h3>
+      <p>Senior-level AI engineering at small-business rates, without subcontracting a bench. Adova Digital is subcontract-ready for task orders needing custom AI development (541511), systems design (541512), or automation advisory (541611, 541618), and counts toward veteran-owned goals today, with SDVOSB credit expected on VetCert issuance (application under SBA review).</p>
+      <div style="margin-top:16px"><a class="btn ghost" href="mailto:elijah.abraham@adovadigital.com?subject=Teaming%20Inquiry%2C%20Adova%20Digital%20LLC%2C%20SDVOSB%20(under%20SBA%20review)%2C%20UEI%20HYSTBYVWZ566&body=We%20are%20evaluating%20Adova%20Digital%20LLC%20for%20a%20teaming%20or%20subcontract%20role.%0A%0APrime%20contract%20or%20pursuit%3A%20%0ANAICS%20%2F%20scope%3A%20%0ATimeline%3A%20">Start a Teaming Conversation</a></div>
+    </div>
+    <div class="tools">
+      <div class="toolcard">
+        <h4>Sources Sought Desk</h4>
+        <p>We respond to Sources Sought and RFI notices within 48 hours. The response template quotes each notice question and answers beneath it, with our entity block prefilled.</p>
+        <a href="/downloads/sources-sought-response-template.txt" download>Download Sources Sought Template</a>
+      </div>
+      <div class="toolcard">
+        <h4>Capability summary, one paragraph</h4>
+        <p>The paste-ready summary reviewers actually use, matched verbatim to our SAM.gov and capability statement language.</p>
+        <button class="smallbtn" id="copySummary">Copy Capability Summary</button>
       </div>
     </div>
   </div>
 </section>
+
+<!-- SECTION G · CONTACT -->
+<section class="clause reveal" id="contact" aria-labelledby="secG">
+  <div class="cnum">SEC. G</div>
+  <div class="cbody">
+    <span class="label">Section G &middot; Points of contact and execution</span>
+    <h2 class="sec" id="secG">Start the conversation.</h2>
+    <p class="secsub">Email is fastest for government inquiries. A briefing request composed below arrives ready to send.</p>
+
+    <p class="pocline"><a href="mailto:elijah.abraham@adovadigital.com">elijah.abraham@adovadigital.com</a></p>
+    <p class="pocline"><a href="tel:+14044451257">(404) 445-1257</a></p>
+
+    <div class="composer">
+      <span class="label">Briefing-request composer</span>
+      <p style="color:var(--slate);font-size:14px;margin-top:8px">Pick your role. The email is assembled with our entity record, a two-sentence capability summary, and a fifteen-minute ask.</p>
+      <div class="opts" role="group" aria-label="Select your role">
+        <button class="opt" data-aud="sbs" aria-pressed="true">AGENCY SBS / OSDBU</button>
+        <button class="opt" data-aud="co" aria-pressed="false">CONTRACTING OFFICER</button>
+        <button class="opt" data-aud="prime" aria-pressed="false">PRIME SBLO</button>
+      </div>
+      <div class="actions">
+        <a class="btn" id="composeMail" href="#">Request a Capabilities Briefing</a>
+        <button class="btn ghost" id="copyMail">Copy Email Text</button>
+      </div>
+    </div>
+
+    <div class="sig">
+      <div class="rule"></div>
+      <div class="name">Elijah Abraham</div>
+      <div class="role">Founder and Principal Engineer, Adova Digital LLC<br/>U.S. Army National Guard SGT (12N)</div>
+      <div class="rev">REV 2026-Q3 &middot; MABLETON, GEORGIA</div>
+    </div>
+
+    <div class="exhibit" id="bookingExhibit">
+      <div class="cap">Exhibit 1 &middot; Schedule: 15-minute capabilities briefing (agenda: capabilities, relevant experience, questions)</div>
+      <div id="bookingSlot" style="min-height:640px"></div>
+      <p class="caption">Email is fastest for government inquiries; scheduling is offered for prime and commercial partners.</p>
+    </div>
+  </div>
+</section>
+
 </main>
 
 <footer>
-  <div class="wrap">
-    <div>© 2026 Adova Digital LLC · Mableton, Georgia</div>
-    <div><a href="https://www.adovadigital.com">adovadigital.com</a> · <a href="https://synapse.adovadigital.com">synapse.adovadigital.com</a></div>
+  <div class="in">
+    <div class="cols">
+      <div>
+        <img class="fmark" src="/logo-hummingbird.png" alt="" aria-hidden="true" />
+        <p>Adova Digital LLC is a veteran-owned AI systems firm. Commercial practice: <a href="https://synapse.adovadigital.com">Adova Synapse</a>. Parent: <a href="https://www.adovadigital.com">adovadigital.com</a>.</p>
+      </div>
+      <div>
+        <div class="flabel">Verify this record</div>
+        <ul>
+          <li><a href="https://sam.gov/search/?keywords=HYSTBYVWZ566" target="_blank" rel="noopener noreferrer">SAM.gov entity record</a></li>
+          <li><a href="https://dsbs.sba.gov" target="_blank" rel="noopener noreferrer">SBA Dynamic Small Business Search</a></li>
+          <li><a href="/capability-statement.html">Capability statement (print / PDF)</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="flabel">Entity record</div>
+        <p class="entity">ADOVA DIGITAL LLC<br/>UEI HYSTBYVWZ566 &middot; CAGE 176E4<br/>NAICS 541511 (P) &middot; 541512 &middot; 541611 &middot; 541618<br/>MABLETON, GEORGIA &middot; SAM ACTIVE<br/>SDVOSB, APPLICATION UNDER SBA REVIEW</p>
+      </div>
+    </div>
+    <div class="end">END OF DOCUMENT &middot; REV 2026-Q3</div>
   </div>
 </footer>
 
+<div id="toast" role="status" aria-live="polite"></div>
+
+<script>
+/* single source of truth for entity values used by every copy action */
+const ENTITY = {
+  legalName: "Adova Digital LLC",
+  uei: "HYSTBYVWZ566",
+  cage: "176E4",
+  naicsPrimary: "541511",
+  naicsSecondary: "541512, 541611, 541618",
+  status: "SDVOSB, application under SBA review (VetCert)",
+  sam: "Active, renewal 2026-11-26",
+  location: "Mableton, Georgia",
+  email: "elijah.abraham@adovadigital.com",
+  phone: "(404) 445-1257",
+  poc: "Elijah Abraham, Founder and Principal Engineer",
+  verified: "2026-07-28",
+  site: "https://edu.adovadigital.com",
+  capstate: "https://edu.adovadigital.com/capability-statement.html"
+};
+
+const toast = document.getElementById('toast');
+let toastTimer;
+function showToast(msg){
+  toast.textContent = msg;
+  toast.classList.add('show');
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(()=>toast.classList.remove('show'), 2600);
+}
+function copyText(t, msg, btn){
+  const done = ()=>{
+    showToast(msg || 'COPIED');
+    if(btn){ btn.classList.add('done'); const old = btn.textContent; btn.textContent='COPIED'; setTimeout(()=>{btn.classList.remove('done'); btn.textContent=old;},1800); }
+  };
+  if(navigator.clipboard && navigator.clipboard.writeText){
+    navigator.clipboard.writeText(t).then(done).catch(()=>fallbackCopy(t, done));
+  } else { fallbackCopy(t, done); }
+}
+function fallbackCopy(t, done){
+  const ta = document.createElement('textarea');
+  ta.value = t; ta.style.position='fixed'; ta.style.opacity='0';
+  document.body.appendChild(ta); ta.select();
+  try{ document.execCommand('copy'); done(); }catch(e){ showToast('COPY FAILED, SELECT MANUALLY'); }
+  document.body.removeChild(ta);
+}
+
+document.querySelectorAll('.copybtn').forEach(b=>{
+  b.addEventListener('click', ()=>copyText(ENTITY[b.dataset.copy], 'COPIED, MATCHES SAM.GOV RECORD', b));
+});
+
+document.getElementById('copyRecord').addEventListener('click', ()=>{
+  const rec = [
+    'LEGAL NAME: ' + ENTITY.legalName,
+    'UEI: ' + ENTITY.uei,
+    'CAGE: ' + ENTITY.cage,
+    'PRIMARY NAICS: ' + ENTITY.naicsPrimary,
+    'SECONDARY NAICS: ' + ENTITY.naicsSecondary,
+    'SOCIOECONOMIC: ' + ENTITY.status,
+    'SAM.GOV: ' + ENTITY.sam,
+    'LOCATION: ' + ENTITY.location,
+    'POC: ' + ENTITY.poc,
+    'EMAIL: ' + ENTITY.email,
+    'PHONE: ' + ENTITY.phone,
+    'CAPABILITY STATEMENT: ' + ENTITY.capstate
+  ].join('\n');
+  copyText(rec, 'COPIED, MATCHES SAM.GOV RECORD, VERIFIED ' + ENTITY.verified);
+});
+
+const SUMMARY = "Adova Digital LLC (UEI HYSTBYVWZ566, CAGE 176E4) is a veteran-owned AI systems firm in Mableton, Georgia. SDVOSB, application under SBA review (VetCert). Under primary NAICS 541511 (with 541512, 541611, 541618) the firm designs, builds, and operates AI process automation, intake and missed-communication answering systems, data pipelines and dashboards, and AI readiness assessments. Systems are in daily commercial production; the founder is the delivery engineer. Firm-fixed-price line items start at $1,500, below the services micro-purchase threshold, and a signed quote returns same day. Capability statement: https://edu.adovadigital.com/capability-statement.html";
+document.getElementById('copySummary').addEventListener('click', ()=>copyText(SUMMARY, 'CAPABILITY SUMMARY COPIED'));
+
+/* briefing composer */
+const BODIES = {
+  sbs: "Good morning,\n\nAdova Digital LLC is a veteran-owned AI systems firm in Mableton, Georgia (UEI HYSTBYVWZ566, CAGE 176E4, primary NAICS 541511). Our SDVOSB application is under SBA review (VetCert). We build and operate AI process automation, intake answering systems, and data dashboards, currently in daily production for commercial clients.\n\nI would welcome 15 minutes to brief your small business office on our capabilities and learn how your agency prefers to engage new vendors. Our capability statement: https://edu.adovadigital.com/capability-statement.html\n\nRespectfully,\nElijah Abraham\nFounder and Principal Engineer, Adova Digital LLC\nU.S. Army National Guard SGT\nelijah.abraham@adovadigital.com · (404) 445-1257",
+  co: "Good morning,\n\nAdova Digital LLC is a veteran-owned AI systems firm (UEI HYSTBYVWZ566, CAGE 176E4, primary NAICS 541511, SAM active). Our SDVOSB application is under SBA review (VetCert). We deliver firm-fixed-price AI automation work: our AI Opportunity Assessment is published at $1,500 FFP, below the services micro-purchase threshold, government purchase card accepted, signed quote same day.\n\nIf you have requirements in AI automation, intake answering, or reporting dashboards, I would welcome 15 minutes to brief you. Capability statement: https://edu.adovadigital.com/capability-statement.html\n\nRespectfully,\nElijah Abraham\nFounder and Principal Engineer, Adova Digital LLC\nelijah.abraham@adovadigital.com · (404) 445-1257",
+  prime: "Good morning,\n\nAdova Digital LLC is a veteran-owned AI systems firm (UEI HYSTBYVWZ566, CAGE 176E4, NAICS 541511/541512/541611/541618). Our SDVOSB application is under SBA review (VetCert); we count toward veteran-owned goals today. We provide senior-level AI engineering at small-business rates: process automation, intake answering systems, and data dashboards, in daily commercial production.\n\nIf you have task orders or pursuits needing an AI subcontractor, I would welcome 15 minutes with your small business liaison or capture team. Capability statement: https://edu.adovadigital.com/capability-statement.html\n\nRespectfully,\nElijah Abraham\nFounder and Principal Engineer, Adova Digital LLC\nelijah.abraham@adovadigital.com · (404) 445-1257"
+};
+const SUBJECT = "Capabilities Briefing Request, Adova Digital LLC, SDVOSB (under SBA review), UEI HYSTBYVWZ566";
+let audience = 'sbs';
+const composeMail = document.getElementById('composeMail');
+function setMailHref(){
+  composeMail.href = 'mailto:?subject=' + encodeURIComponent(SUBJECT) + '&body=' + encodeURIComponent(BODIES[audience]);
+}
+setMailHref();
+document.querySelectorAll('.opt').forEach(b=>{
+  b.addEventListener('click', ()=>{
+    audience = b.dataset.aud;
+    document.querySelectorAll('.opt').forEach(o=>o.setAttribute('aria-pressed', o===b ? 'true' : 'false'));
+    setMailHref();
+  });
+});
+document.getElementById('copyMail').addEventListener('click', ()=>copyText('Subject: ' + SUBJECT + '\n\n' + BODIES[audience], 'EMAIL TEXT COPIED'));
+
+/* lazy-load the GHL booking embed when scrolled near; fail silently to email path */
+const slot = document.getElementById('bookingSlot');
+let embedLoaded = false;
+function loadEmbed(){
+  if(embedLoaded) return; embedLoaded = true;
+  try{
+    const f = document.createElement('iframe');
+    f.src = 'https://api.leadconnectorhq.com/widget/booking/oG38qwVH51aT6XxIsNL4';
+    f.title = 'Schedule a 15-minute capabilities briefing';
+    f.loading = 'lazy';
+    f.id = 'oG38qwVH51aT6XxIsNL4_booking';
+    slot.appendChild(f);
+    const s = document.createElement('script');
+    s.src = 'https://api.leadconnectorhq.com/js/form_embed.js';
+    document.body.appendChild(s);
+  }catch(e){ document.getElementById('bookingExhibit').style.display = 'none'; }
+}
+if('IntersectionObserver' in window){
+  const io = new IntersectionObserver(es=>{ es.forEach(e=>{ if(e.isIntersecting){ loadEmbed(); io.disconnect(); } }); },{rootMargin:'600px'});
+  io.observe(document.getElementById('bookingExhibit'));
+}else{ loadEmbed(); }
+
+/* scroll reveals */
+if(matchMedia('(prefers-reduced-motion: no-preference)').matches && 'IntersectionObserver' in window){
+  const ro = new IntersectionObserver(es=>{ es.forEach(e=>{ if(e.isIntersecting){ e.target.classList.add('on'); ro.unobserve(e.target); } }); },{rootMargin:'-40px'});
+  document.querySelectorAll('.reveal').forEach(el=>ro.observe(el));
+}else{
+  document.querySelectorAll('.reveal').forEach(el=>el.classList.add('on'));
+}
+</script>
 </body>
 </html>
