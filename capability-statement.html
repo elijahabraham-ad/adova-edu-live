@@ -16,8 +16,8 @@
 }
 *{margin:0;padding:0;box-sizing:border-box}
 body{background:#E8E4DB;color:var(--ink);font-family:"Instrument Sans",system-ui,sans-serif;font-size:12.5px;line-height:1.5;-webkit-print-color-adjust:exact;print-color-adjust:exact}
-a{color:var(--bronze);text-decoration:underline;text-underline-offset:2px;text-decoration-thickness:.5px}
-.label{font-weight:600;font-size:.625rem;letter-spacing:.12em;text-transform:uppercase;color:var(--bronze)}
+a{color:var(--bronze-deep);text-decoration:underline;text-underline-offset:2px;text-decoration-thickness:.5px}
+.label{font-weight:600;font-size:.625rem;letter-spacing:.12em;text-transform:uppercase;color:var(--bronze-deep)}
 .toolbar{max-width:816px;margin:16px auto 0;padding:0 12px;display:flex;justify-content:space-between;align-items:center;font-size:13px}
 .toolbar a{font-weight:600}
 .toolbar button{background:var(--ink);color:var(--paper);border:none;font-family:"Instrument Sans",sans-serif;font-weight:600;font-size:13px;padding:9px 18px;cursor:pointer}
@@ -38,7 +38,7 @@ section:first-child h2{margin-top:0}
 ul{list-style:none}
 .comp li{padding:5px 0;border-bottom:.5px solid var(--hairline)}
 .comp li:last-child{border-bottom:none}
-.comp .n{font-family:"JetBrains Mono",monospace;font-size:8.5px;color:var(--bronze);letter-spacing:.08em}
+.comp .n{font-family:"JetBrains Mono",monospace;font-size:8.5px;color:var(--bronze-deep);letter-spacing:.08em}
 .comp strong{display:block;font-weight:600;font-size:12px}
 .comp span{color:var(--slate);font-size:11.5px}
 .plain li{padding:3.5px 0;font-size:11.5px}
@@ -63,7 +63,7 @@ ul{list-style:none}
 .clin th{background:var(--panel);font-family:"JetBrains Mono",monospace;font-size:8px;letter-spacing:.1em;color:var(--slate);text-transform:uppercase;text-align:left;padding:5px 8px;border-bottom:.5px solid var(--hairline)}
 .clin td{padding:6px 8px;border-bottom:.5px solid var(--hairline);font-size:11px;vertical-align:top}
 .clin td.num,.clin td.price{font-family:"JetBrains Mono",monospace;font-size:10px;white-space:nowrap}
-.clin td.num{color:var(--bronze)}
+.clin td.num{color:var(--bronze-deep)}
 .clin-note{font-family:"JetBrains Mono",monospace;font-size:8px;color:var(--slate);margin-top:5px;letter-spacing:.04em}
 
 .contact{margin-top:12px;background:var(--ink);color:var(--paper);padding:12px 14px}
@@ -82,7 +82,7 @@ ul{list-style:none}
 @media print{
   body{background:var(--paper)}
   .toolbar{display:none}
-  .sheet{box-shadow:none;margin:0;width:auto;padding:0}
+  .sheet{box-shadow:none;margin:0;width:auto;padding:0;zoom:.7}
   a{color:var(--ink);text-decoration:none}
   .plate,.clin,.clin th,.plate tr+tr td,.clin td,.comp li,.exp li,.runhead,.runfoot{border-color:#8C6A3F}
   @page{margin:0.6in;size:letter}
@@ -105,7 +105,7 @@ ul{list-style:none}
 
   <header class="cshead">
     <div class="l">
-      <img src="/logo-hummingbird.png" alt="Adova Digital hummingbird mark" />
+      <img src="/logo-ink.png" alt="Adova Digital hummingbird mark" />
       <div>
         <h1>Capability Statement &middot; Adova Digital LLC</h1>
         <p class="tagline">Veteran-owned AI systems firm. We design, build, and operate production AI automation for agencies, purchase-card buyers, and prime contractors. The engineer who scopes your requirement is the one who ships it.</p>
@@ -120,7 +120,7 @@ ul{list-style:none}
         <h2>Core competencies</h2>
         <ul class="comp">
           <li><span class="n">B.1 &middot; NAICS 541511 (PRIMARY)</span><strong>AI process automation and workflow systems</strong><span>Intake, routing, document processing, and reporting automation integrated with existing systems. Delivered with runbooks.</span></li>
-          <li><span class="n">B.2 &middot; NAICS 541511</span><strong>AI intake and missed-communication answering</strong><span>Call, text, and form answering that captures, qualifies, and follows up around the clock. In commercial production today.</span></li>
+          <li><span class="n">B.2 &middot; NAICS 541511</span><strong>AI intake and missed-communication answering</strong><span>Call, text, and form answering that captures, qualifies, and follows up around the clock. In daily production.</span></li>
           <li><span class="n">B.3 &middot; NAICS 541512</span><strong>Data pipelines, reporting, and decision dashboards</strong><span>Operational data into live dashboards and scheduled reports; architecture and security posture documented.</span></li>
           <li><span class="n">B.4 &middot; NAICS 541611 / 541618</span><strong>AI readiness assessment and workforce enablement</strong><span>Priced automation roadmaps before anything is built; staff training on delivered systems.</span></li>
         </ul>
@@ -129,11 +129,11 @@ ul{list-style:none}
       <section>
         <h2>Relevant experience</h2>
         <ul class="exp">
-          <li><strong>Missed-call answering and follow-up system</strong><span>Home-services contracting firm. Automated answering, qualification, and follow-up integrated with CRM and calendar. Sole developer and operator.</span><br/><span class="m">COMMERCIAL &middot; IN PRODUCTION &middot; REFERENCE ON REQUEST</span></li>
-          <li><strong>Lead capture, CRM, and payment automation stack</strong><span>End-to-end pipeline from web capture through CRM automation to invoicing and payment collection. Sole developer.</span><br/><span class="m">COMMERCIAL &middot; IN PRODUCTION &middot; REFERENCE ON REQUEST</span></li>
-          <li><strong>AI content and publishing pipeline</strong><span>Automated generation, review, scheduling, and publishing on a daily cadence with human oversight checkpoints.</span><br/><span class="m">COMMERCIAL &middot; IN PRODUCTION &middot; OPERATED DAILY</span></li>
+          <li><strong>Missed-call answering and follow-up system</strong><span>Automated answering, qualification, and follow-up integrated with CRM and calendar, built for home-services contracting operations. Sole developer and operator.</span><br/><span class="m">IN PRODUCTION &middot; DEMONSTRATION AVAILABLE</span></li>
+          <li><strong>Lead capture, CRM, and payment automation stack</strong><span>End-to-end pipeline from web capture through CRM automation to invoicing and payment collection. Sole developer.</span><br/><span class="m">FIRM-OPERATED &middot; IN PRODUCTION</span></li>
+          <li><strong>AI content and publishing pipeline</strong><span>Automated generation, review, scheduling, and publishing on a daily cadence with human oversight checkpoints.</span><br/><span class="m">FIRM-OPERATED &middot; IN PRODUCTION &middot; OPERATED DAILY</span></li>
         </ul>
-        <p class="footnote">No federal prime contracts held to date. Under FAR 15.305(a)(2)(iv), an offeror without relevant past performance may not be evaluated favorably or unfavorably on it.</p>
+        <p class="footnote">New entrant to federal prime contracting; demonstrations available on request. Where past performance is evaluated, an offeror without a relevant record receives a neutral rating (FAR 15.305(a)(2)(iv)).</p>
       </section>
 
       <section>
@@ -141,18 +141,18 @@ ul{list-style:none}
         <table class="clin">
           <tr><th>CLIN</th><th>Item</th><th>Price</th></tr>
           <tr><td class="num">0001</td><td>AI Opportunity Assessment: workflow review, automation map, priced roadmap. 2-week PoP.</td><td class="price">$1,500 FFP</td></tr>
-          <tr><td class="num">0002</td><td>AI System Build: scoped design, build, deployment, documentation, handoff.</td><td class="price">$7,500&ndash;$25,000</td></tr>
+          <tr><td class="num">0002</td><td>AI System Build: scoped design, build, deployment, documentation, handoff.</td><td class="price">$7,500&ndash;$25,000 FFP</td></tr>
           <tr><td class="num">0003</td><td>AI operations and support retainer, scoped to requirement.</td><td class="price">from $500/mo</td></tr>
         </table>
-        <p class="clin-note">CLIN 0001 BELOW THE $2,500 SERVICES MICRO-PURCHASE THRESHOLD &middot; GOV PURCHASE CARD ACCEPTED &middot; SIGNED QUOTE SAME DAY</p>
+        <p class="clin-note">CLIN 0001 BELOW THE MICRO-PURCHASE THRESHOLD, INCLUDING THE $2,500 SCLS-SERVICES LEVEL (FAR 2.101) &middot; GOV PURCHASE CARD ACCEPTED &middot; SIGNED QUOTE SAME DAY</p>
       </section>
 
       <section>
         <h2>Differentiators</h2>
         <ul class="plain">
-          <li><strong>Founder is the delivery engineer.</strong> <em>No bench, no markup; the signer scopes, builds, and operates the work.</em></li>
+          <li><strong>Founder is the delivery engineer.</strong> <em>No layers between buyer and engineer; the signer scopes, builds, and operates the work.</em></li>
           <li><strong>Trade and field background.</strong> <em>Four years commercial electrical; serving GA Army National Guard engineer NCO (12N).</em></li>
-          <li><strong>Production systems operating today.</strong> <em>Delivery experience, not a services brochure.</em></li>
+          <li><strong>Production systems operating today.</strong> <em>Systems run daily; logs and demonstrations available in a briefing.</em></li>
           <li><strong>Founder-led with surge capacity.</strong> <em>Contractor network for surge; micro-purchase and SAP speed.</em></li>
         </ul>
       </section>
@@ -166,7 +166,7 @@ ul{list-style:none}
             <tr><td class="k">Legal name</td><td class="v">Adova Digital LLC</td></tr>
             <tr><td class="k">UEI</td><td class="v">HYSTBYVWZ566</td></tr>
             <tr><td class="k">CAGE</td><td class="v">176E4</td></tr>
-            <tr><td class="k">SAM.gov</td><td class="v">ACTIVE &middot; renewal 2026-11-26</td></tr>
+            <tr><td class="k">SAM.gov</td><td class="v">ACTIVE &middot; expires <span style="white-space:nowrap">2026-11-26</span></td></tr>
             <tr><td class="k">Structure</td><td class="v">Georgia LLC, formed 2025</td></tr>
             <tr><td class="k">Primary NAICS</td><td class="v">541511</td></tr>
             <tr><td class="k">Secondary NAICS</td><td class="v">541512 &middot; 541611 &middot; 541618</td></tr>
@@ -194,8 +194,6 @@ ul{list-style:none}
           <div class="v">Elijah Abraham, Founder and Principal Engineer</div>
           <div class="k">Email</div>
           <div class="v"><a href="mailto:elijah.abraham@adovadigital.com">elijah.abraham@adovadigital.com</a></div>
-          <div class="k">Phone</div>
-          <div class="v"><a href="tel:+14044451257">(404) 445-1257</a></div>
           <div class="k">Web</div>
           <div class="v"><a href="https://edu.adovadigital.com">edu.adovadigital.com</a></div>
         </div>

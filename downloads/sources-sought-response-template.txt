@@ -30,22 +30,22 @@ SAM.GOV:           Active
 PRIMARY NAICS:     541511
 SECONDARY NAICS:   541512, 541611, 541618
 SIZE:              Small business (all listed NAICS)
-SOCIOECONOMIC:     Veteran-owned; SDVOSB application under SBA
-                   review (VetCert)
+SOCIOECONOMIC:     SDVOSB, application under SBA review (VetCert)
 LOCATION:          Mableton, Georgia (Atlanta metro)
 POC:               Elijah Abraham, Founder and Principal Engineer
 EMAIL:             elijah.abraham@adovadigital.com
-PHONE:             (404) 445-1257
 CAPABILITY STMT:   https://edu.adovadigital.com/capability-statement.html
 
 ----------------------------------------------------------------
 3. SET-ASIDE ELIGIBILITY STATEMENT
 ----------------------------------------------------------------
 Adova Digital LLC is a small business under every NAICS code listed
-above and is 100% owned and controlled by a service-disabled veteran.
-The firm's SDVOSB certification application is under SBA review
-(VetCert). We respectfully note our interest in small-business and
-veteran-owned set-aside consideration for this requirement.
+above and is 100% owned and controlled by its founder, who holds a
+VA service-connected disability rating. The firm's SDVOSB
+certification application is under SBA review (VetCert). We
+respectfully note our interest in small-business set-aside
+consideration for this requirement; upon VetCert issuance the firm
+will additionally be eligible for SDVOSB set-aside consideration.
 
 ----------------------------------------------------------------
 4. RESPONSES TO NOTICE QUESTIONS
@@ -85,4 +85,4 @@ Respectfully,
 Elijah Abraham
 Founder and Principal Engineer, Adova Digital LLC
 U.S. Army National Guard SGT (12N)
-elijah.abraham@adovadigital.com | (404) 445-1257
+elijah.abraham@adovadigital.com
