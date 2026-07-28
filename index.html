@@ -1,27 +1,209 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Adova EDU | Workforce Development &amp; Financial Education</title>
-    <meta name="description" content="Adova EDU provides financial readiness, workforce development, and small business training services for federal, state, and local government agencies.">
-    <meta name="author" content="Adova EDU" />
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Adova Digital | Government AI Services &amp; Capabilities</title>
+<meta name="description" content="Adova Digital LLC is a veteran-owned AI systems firm in Atlanta, Georgia. Custom AI development, systems design, and automation advisory for government agencies and prime contractors. UEI HYSTBYVWZ566 · CAGE 176E4." />
+<meta name="author" content="Adova Digital LLC" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Adova Digital | Government AI Services &amp; Capabilities" />
+<meta property="og:description" content="Veteran-owned AI systems firm. Custom AI development, systems design, and automation advisory for agencies and primes. SAM.gov active." />
+<link rel="icon" href="/favicon.ico" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800;900&family=Inter+Tight:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+<style>
+:root{
+  --ink:#0F0B1F; --card:#171130; --line:#2D2547; --paper:#F5F3FA;
+  --violet:#7C3AED; --lilac:#A78BFA; --signal:#3DD68C; --steel:#8E8AA0;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{background:var(--ink);color:var(--paper);font-family:"Inter Tight",system-ui,sans-serif;font-size:17px;line-height:1.6;-webkit-font-smoothing:antialiased}
+a{color:var(--lilac);text-decoration:none}
+a:hover{text-decoration:underline}
+a:focus-visible,button:focus-visible{outline:2px solid var(--signal);outline-offset:3px;border-radius:2px}
+.wrap{max-width:1100px;margin:0 auto;padding:0 24px}
+.mono{font-family:"JetBrains Mono",ui-monospace,monospace}
 
-    
-    
-    <meta property="og:type" content="website" />
+/* top bar */
+.top{border-bottom:1px solid var(--line)}
+.top .wrap{display:flex;align-items:center;justify-content:space-between;padding-top:18px;padding-bottom:18px;gap:16px;flex-wrap:wrap}
+.brand{font-family:Archivo,sans-serif;font-weight:800;letter-spacing:.02em;color:var(--paper);font-size:15px}
+.brand span{color:var(--lilac)}
+.top nav{display:flex;gap:22px;font-size:14px;flex-wrap:wrap}
+.top nav a{color:var(--steel)}
+.top nav a:hover{color:var(--paper);text-decoration:none}
 
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta property="og:title" content="Adova EDU | Workforce Development &amp; Financial Education">
-  <meta name="twitter:title" content="Adova EDU | Workforce Development &amp; Financial Education">
-  <meta property="og:description" content="Adova EDU provides financial readiness, workforce development, and small business training services for federal, state, and local government agencies.">
-  <meta name="twitter:description" content="Adova EDU provides financial readiness, workforce development, and small business training services for federal, state, and local government agencies.">
-  <link rel="icon" type="image/png" href="https://storage.googleapis.com/gpt-engineer-file-uploads/BSX92CQGWsONfw7wtIjispJJgyk2/uploads/1768944733846-Untitled design (15).png">
-  <script type="module" crossorigin src="/assets/index-C71G3wvt.js"></script>
-  <link rel="stylesheet" crossorigin href="/assets/index-DUK-cv1q.css">
-<script defer src="/~flock.js" data-proxy-url="/~api/analytics"></script><meta property="og:image" content="https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/f81aff6a-bdf1-418c-ada7-4d569cb1046f/id-preview-91c0d553--af4d28a7-ff64-4d93-b050-250258e83629.lovable.app-1772119805567.png"><meta name="twitter:image" content="https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/f81aff6a-bdf1-418c-ada7-4d569cb1046f/id-preview-91c0d553--af4d28a7-ff64-4d93-b050-250258e83629.lovable.app-1772119805567.png"></head>
+/* hero */
+.hero{padding:72px 0 64px;border-bottom:1px solid var(--line)}
+.hero .wrap{display:grid;grid-template-columns:1.15fr .85fr;gap:56px;align-items:center}
+.eyebrow{font-family:"JetBrains Mono",monospace;font-size:12px;letter-spacing:.14em;color:var(--signal);text-transform:uppercase;margin-bottom:18px}
+h1{font-family:Archivo,sans-serif;font-weight:900;font-size:clamp(34px,4.6vw,52px);line-height:1.06;letter-spacing:-.015em}
+h1 em{font-style:normal;color:var(--lilac)}
+.hero p.lead{margin-top:20px;color:var(--steel);font-size:18px;max-width:34em}
+.cta-row{margin-top:32px;display:flex;gap:14px;flex-wrap:wrap}
+.btn{display:inline-block;font-family:Archivo,sans-serif;font-weight:700;font-size:15px;padding:13px 22px;border-radius:6px;border:1px solid transparent}
+.btn-primary{background:var(--violet);color:#fff}
+.btn-primary:hover{background:#8b4ff0;text-decoration:none}
+.btn-ghost{border-color:var(--line);color:var(--paper)}
+.btn-ghost:hover{border-color:var(--lilac);text-decoration:none}
 
-  <body>
-    <div id="root"></div>
-  </body>
+/* the data plate */
+.plate{background:var(--card);border:1px solid var(--line);border-radius:10px;overflow:hidden;box-shadow:0 24px 60px rgba(0,0,0,.35)}
+.plate-head{display:flex;justify-content:space-between;align-items:center;padding:14px 18px;border-bottom:1px solid var(--line);background:rgba(124,58,237,.08)}
+.plate-head .t{font-family:"JetBrains Mono",monospace;font-size:11px;letter-spacing:.14em;color:var(--steel)}
+.status{display:flex;align-items:center;gap:7px;font-family:"JetBrains Mono",monospace;font-size:11px;letter-spacing:.1em;color:var(--signal)}
+.dot{width:8px;height:8px;border-radius:50%;background:var(--signal);box-shadow:0 0 8px rgba(61,214,140,.8)}
+.plate table{width:100%;border-collapse:collapse}
+.plate td{padding:11px 18px;font-size:13.5px;vertical-align:top}
+.plate tr+tr td{border-top:1px solid var(--line)}
+.plate td.k{font-family:"JetBrains Mono",monospace;font-size:11px;letter-spacing:.12em;color:var(--steel);text-transform:uppercase;width:38%;padding-top:13px}
+.plate td.v{font-family:"JetBrains Mono",monospace;color:var(--paper)}
+.plate td.v .sub{color:var(--steel);font-size:12px;display:block;margin-top:2px;font-family:"Inter Tight",sans-serif}
+
+/* sections */
+section{padding:64px 0;border-bottom:1px solid var(--line)}
+.sec-label{font-family:"JetBrains Mono",monospace;font-size:12px;letter-spacing:.14em;color:var(--lilac);text-transform:uppercase;margin-bottom:12px}
+h2{font-family:Archivo,sans-serif;font-weight:800;font-size:clamp(24px,3vw,32px);letter-spacing:-.01em;margin-bottom:28px}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:26px}
+.card .naics{font-family:"JetBrains Mono",monospace;font-size:12px;color:var(--signal);letter-spacing:.1em;margin-bottom:10px}
+.card h3{font-family:Archivo,sans-serif;font-weight:700;font-size:19px;margin-bottom:10px}
+.card p{color:var(--steel);font-size:15.5px}
+
+.diff-list{display:grid;grid-template-columns:1fr 1fr;gap:8px 40px;list-style:none}
+.diff-list li{padding:16px 0;border-bottom:1px solid var(--line);color:var(--steel);font-size:16px}
+.diff-list li strong{color:var(--paper);display:block;font-family:Archivo,sans-serif;font-weight:700;font-size:17px;margin-bottom:4px}
+
+.engage p{color:var(--steel);max-width:46em}
+.engage .card{margin-top:24px}
+.contact-row{display:flex;gap:40px;flex-wrap:wrap;margin-top:8px}
+.contact-row .item .k{font-family:"JetBrains Mono",monospace;font-size:11px;letter-spacing:.12em;color:var(--steel);text-transform:uppercase;margin-bottom:4px}
+.contact-row .item .v{font-size:16px}
+
+footer{padding:36px 0 48px;color:var(--steel);font-size:13.5px}
+footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
+
+@media (max-width:840px){
+  .hero .wrap{grid-template-columns:1fr;gap:40px}
+  .grid2,.diff-list{grid-template-columns:1fr}
+}
+@media (prefers-reduced-motion:no-preference){
+  .hero h1,.hero .lead,.hero .cta-row,.hero .eyebrow{animation:rise .6s ease both}
+  .plate{animation:rise .6s .15s ease both}
+  @keyframes rise{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+}
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <div class="brand">ADOVA <span>DIGITAL</span> · GOV</div>
+    <nav aria-label="Main">
+      <a href="#capabilities">Capabilities</a>
+      <a href="#company">Company data</a>
+      <a href="/capability-statement.html">Capability statement</a>
+      <a href="https://synapse.adovadigital.com">Commercial practice ↗</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section class="hero">
+  <div class="wrap">
+    <div>
+      <div class="eyebrow">Veteran-owned small business · Atlanta, Georgia</div>
+      <h1>Practical AI systems, <em>built and run</em> by the people you contract with.</h1>
+      <p class="lead">Adova Digital LLC designs, builds, and operates AI automation for government teams and the primes that serve them: opportunity assessments, custom development, and managed AI operations. Founded and 100% owned by a serving Army National Guard engineer NCO.</p>
+      <div class="cta-row">
+        <a class="btn btn-primary" href="/capability-statement.html">View capability statement</a>
+        <a class="btn btn-ghost" href="mailto:elijah.abraham@adovadigital.com">Contact the owner</a>
+      </div>
+    </div>
+    <aside class="plate" aria-label="SAM.gov entity record">
+      <div class="plate-head">
+        <span class="t">SAM.GOV ENTITY RECORD</span>
+        <span class="status"><span class="dot" aria-hidden="true"></span>ACTIVE</span>
+      </div>
+      <table>
+        <tr><td class="k">Legal name</td><td class="v">ADOVADIGITAL LLC</td></tr>
+        <tr><td class="k">UEI</td><td class="v">HYSTBYVWZ566</td></tr>
+        <tr><td class="k">CAGE</td><td class="v">176E4</td></tr>
+        <tr><td class="k">NAICS</td><td class="v">541511 (P) · 541512<br/>541611 · 541618</td></tr>
+        <tr><td class="k">Socioeconomic</td><td class="v">VETERAN-OWNED<span class="sub">SDVOSB &amp; VOSB: SBA VetCert application under review</span></td></tr>
+        <tr><td class="k">Location</td><td class="v">MABLETON, GA<span class="sub">Atlanta metro</span></td></tr>
+      </table>
+    </aside>
+  </div>
+</section>
+
+<section id="capabilities">
+  <div class="wrap">
+    <div class="sec-label">Core competencies</div>
+    <h2>Four lanes, each registered under its NAICS code.</h2>
+    <div class="grid2">
+      <div class="card">
+        <div class="naics">NAICS 541511 · PRIMARY</div>
+        <h3>Custom AI development &amp; integration</h3>
+        <p>LLM-powered tools, chat and voice agents, document processing, and data pipelines, integrated with the systems your team already runs. Built to be operated, not demoed.</p>
+      </div>
+      <div class="card">
+        <div class="naics">NAICS 541512</div>
+        <h3>AI systems design</h3>
+        <p>Architecture, model selection, security posture, and deployment planning for organizations adopting AI. Clear documentation a non-technical owner can act on.</p>
+      </div>
+      <div class="card">
+        <div class="naics">NAICS 541611</div>
+        <h3>AI advisory &amp; opportunity assessment</h3>
+        <p>Fractional AI officer engagements and structured assessments that identify where automation actually pays off in a workflow, with a costed roadmap, before anything is built.</p>
+      </div>
+      <div class="card">
+        <div class="naics">NAICS 541618</div>
+        <h3>Process &amp; communications automation</h3>
+        <p>Intake, follow-up, missed-call answering, scheduling, and reporting automation for small teams that can't afford dropped handoffs.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="differentiators">
+  <div class="wrap">
+    <div class="sec-label">Differentiators</div>
+    <h2>Why a small firm, on purpose.</h2>
+    <ul class="diff-list">
+      <li><strong>Owner-operated, veteran-led</strong>The founder is a serving Georgia Army National Guard engineer NCO (12N). The person accountable for the contract is the person doing the work.</li>
+      <li><strong>Field-native, not lab-native</strong>Four years in the commercial electrical trade before AI. We build systems for people who work with their hands and phones, not just desks.</li>
+      <li><strong>A live commercial practice</strong>Our systems run daily in the private sector through <a href="https://synapse.adovadigital.com">Adova Synapse</a>, our AI practice for skilled-trade contractors.</li>
+      <li><strong>Small-business speed</strong>Direct access, short chains, fast iterations. Suited to micro-purchases, simplified acquisitions, and subcontract task orders.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="company" class="engage">
+  <div class="wrap">
+    <div class="sec-label">How to engage</div>
+    <h2>Built for the small end of the acquisition spectrum.</h2>
+    <p>Adova Digital is available for micro-purchase and simplified-acquisition direct awards, subcontracting and teaming with prime contractors, and small-business set-asides. SDVOSB and VOSB certification applications are under SBA review; this page will reflect the determination when issued.</p>
+    <div class="card">
+      <div class="contact-row">
+        <div class="item"><div class="k">Point of contact</div><div class="v">Elijah Abraham, CEO</div></div>
+        <div class="item"><div class="k">Email</div><div class="v"><a href="mailto:elijah.abraham@adovadigital.com">elijah.abraham@adovadigital.com</a></div></div>
+        <div class="item"><div class="k">Capability statement</div><div class="v"><a href="/capability-statement.html">View / print</a></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div>© 2026 Adova Digital LLC · Mableton, Georgia</div>
+    <div><a href="https://www.adovadigital.com">adovadigital.com</a> · <a href="https://synapse.adovadigital.com">synapse.adovadigital.com</a></div>
+  </div>
+</footer>
+
+</body>
 </html>
